@@ -1,8 +1,10 @@
 # bussola-digital-server
 Backend desenvolvido em PHP 7.4.9
 
-- git clone git@github.com:igorguilhermevettorello/bussola-digital-view.git
+- git clone git@github.com:igorguilhermevettorello/bussola-digital-server.git
+- cd bussola-digital-server
 - composer i
+- cria database no mysql
 - cria arquivo .env com base no .env.example
 DB_CONNECTION=mysql
 DB_HOST=[host]
@@ -13,3 +15,4 @@ DB_PASSWORD=[senha]
 
 - php artisan migrate
 - php -S localhost:8080 -t public
+- acessa a url: http://localhost:8080/api
